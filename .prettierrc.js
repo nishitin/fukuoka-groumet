@@ -2,7 +2,7 @@ module.exports = {
   jsxBracketSameLine: true,
   singleQuote: true,
   trailingComma: 'all',
-  semi: false,
+  semi: true,
   printWidth: 110,
   parser: 'typescript',
   overrides: [
