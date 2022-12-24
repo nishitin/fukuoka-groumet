@@ -5,6 +5,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  images: {
+    domains: ['imgfp.hotp.jp'],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
