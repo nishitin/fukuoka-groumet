@@ -16,11 +16,11 @@ export default async function Home() {
 
   return (
     <div className="space-y-12">
-      <div className="flex justify-center w-full">
+      <div className="flex justify-center w-full bg-white rounded">
         <SearchForm />
         <SubmitForm />
       </div>
-      <div className="flex justify-center w-full">
+      <div>
         <StoreCard data={data} />
       </div>
     </div>
